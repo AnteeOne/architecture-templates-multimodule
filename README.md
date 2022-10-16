@@ -1,4 +1,5 @@
 # Android architecture starter template
+Template with multi-module compose application architecture
 
 ## Features
 - buildSrc + Gradle Plugins
