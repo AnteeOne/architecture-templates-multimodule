@@ -1,4 +1,4 @@
-package tech.antee.compose_multimodule_template.multi_compose.di
+package tech.antee.compose_multimodule_template.di.scopes
 
 import javax.inject.Scope
 
