@@ -14,8 +14,15 @@ android {
 }
 
 dependencies {
-    implementation(project(Modules.coreUi))
-    implementation(project(Modules.coreStrings))
+    projectImplementation(Modules.coreUi)
+    projectImplementation(Modules.coreStrings)
+    projectImplementation(Modules.coreUtils)
+
+    projectImplementation(Modules.commonDomain)
+    projectImplementation(Modules.commonData)
+    projectImplementation(Modules.commonDi)
+    projectImplementation(Modules.commonUi)
+    projectImplementation(Modules.commonMultiCompose)
 
     implementation(Deps.Compose.ui)
     implementation(Deps.Compose.foundation)
