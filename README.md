@@ -6,6 +6,8 @@ Template with multi-module compose application architecture
 - Base deps versions file
 - Kotlin Gradle DSL
 - Dagger2
+- Retrofit
+- Room
 
 ## Usage
 1) Download the source code OR clone the repo
