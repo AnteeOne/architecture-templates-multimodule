@@ -13,7 +13,7 @@ Template with multi-module compose application architecture
 1) Download the source code OR clone the repo
 2) Run shell script (on macOS may be need to [update your shell version](https://apple.stackexchange.com/questions/193411/update-bash-to-version-4-0-on-osx) )
 ```
-./customizer.sh your.package.name [MyApplication]
+bash ./customizer.sh your.package.name [MyApplication]
 ```
  - `your.package.name` - write your application package name
  - `[MyApplication]` - enter your application name
