@@ -14,12 +14,14 @@ android {
 }
 
 dependencies {
-    projectImplementation(Modules.coreUi)
+    projectImplementation(Modules.coreStyles)
     projectImplementation(Modules.coreStrings)
     projectImplementation(Modules.coreUtils)
 
     projectImplementation(Modules.commonDomain)
     projectImplementation(Modules.commonData)
+    projectImplementation(Modules.commonDataLocal)
+    projectImplementation(Modules.commonDataRemote)
     projectImplementation(Modules.commonDi)
     projectImplementation(Modules.commonUi)
     projectImplementation(Modules.commonMultiCompose)
@@ -38,10 +40,14 @@ dependencies {
     implementation(Deps.constraintLayout)
     implementation(Deps.Compose.navigation)
     implementation(Deps.Accompanist.systemUiController)
-    testImplementation(Deps.Test.androidJUnit)
-    androidTestImplementation(Deps.Test.espresso)
-    androidTestImplementation(Deps.Test.jUnit)
 
     implementation(Deps.Dagger.core)
     kapt(Deps.Dagger.compiler)
+
+    implementation(Deps.Network.retrofit)
+    implementation(Deps.Network.okHttpLogging)
+
+    testImplementation(Deps.Test.androidJUnit)
+    androidTestImplementation(Deps.Test.espresso)
+    androidTestImplementation(Deps.Test.jUnit)
 }

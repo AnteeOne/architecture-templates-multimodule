@@ -6,7 +6,7 @@ plugins {
 
 dependencies {
     implementation(project(Modules.coreStrings))
-    implementation(project(Modules.coreUi))
+    implementation(project(Modules.coreStyles))
 
     implementation(Deps.appCompat)
     implementation(Deps.coreKtx)

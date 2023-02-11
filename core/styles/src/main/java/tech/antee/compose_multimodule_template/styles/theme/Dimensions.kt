@@ -1,4 +1,4 @@
-package tech.antee.compose_multimodule_template.ui.theme
+package tech.antee.compose_multimodule_template.styles.theme
 
 import androidx.compose.ui.unit.dp
 
