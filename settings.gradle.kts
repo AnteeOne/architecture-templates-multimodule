@@ -9,7 +9,7 @@ pluginManagement {
 }
 
 include(":app")
-include(":core:ui")
+include(":core:styles")
 include(":core:strings")
 include(":core:utils")
 include(":common:domain")

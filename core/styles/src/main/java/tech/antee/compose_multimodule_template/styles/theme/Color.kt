@@ -1,4 +1,4 @@
-package tech.antee.compose_multimodule_template.ui.theme
+package tech.antee.compose_multimodule_template.styles.theme
 
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.ui.graphics.Color

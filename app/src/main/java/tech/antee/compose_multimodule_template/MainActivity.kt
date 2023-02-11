@@ -8,7 +8,7 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
 import tech.antee.compose_multimodule_template.di.LocalAppProvider
-import tech.antee.compose_multimodule_template.ui.theme.MyApplicationTheme
+import tech.antee.compose_multimodule_template.styles.theme.MyApplicationTheme
 
 // TODO("Implement your app")
 class MainActivity : ComponentActivity() {
